@@ -1,0 +1,21 @@
+File,Keyword,Occurrences,Source
+openssh.log,authentication,30,T1078,openssh
+openssh.log,failed login,4,T1110,openssh
+Mac.log,authentication,6,T1078,Mac
+Mac.log,failed login,2,T1110,Mac
+Mac.log,access denied,4,T1082,Mac
+Apache.log,access denied,2,T1082,Apache
+Apache.log,SQL injection,2,T1190,Apache
+Linux.log,authentication,16,T1078,Linux
+Linux.log,failed login,4,T1110,Linux
+Linux.log,malware detected,2,T1003,Linux
+Linux.log,brute force attack,4,T1110,Linux
+Linux.log,unauthorized file access,4,T1078,Linux
+Linux.log,port scanning,4,T1046,Linux
+win.log,authentication,6,T1078,win
+win.log,failed login,2,T1110,win
+win.log,access denied,4,T1082,win
+fwrouter.log,unauthorized access,2,T1078,fwrouter
+fwrouter.log,SQL injection,2,T1190,fwrouter
+fwrouter.log,anomaly detected,2,T1059,fwrouter
+fwrouter.log,DDoS attack,4,T1498,fwrouter

@@ -1,0 +1,318 @@
+Sample OpenSSH Security Event Logs:
+
+1. Successful SSH Login:
+   - Event Type: Authentication
+   - Event Date: 2023-10-15 10:30:45
+   - User: alice
+   - Source IP: 192.168.1.100
+   - Authentication Method: publickey
+   - Status: Successful
+
+2. Failed SSH Login (Invalid Password):
+   - Event Type: Authentication
+   - Event Date: 2023-10-15 11:15:20
+   - User: bob
+   - Source IP: 192.168.1.100
+   - Authentication Method: password
+   - Status: Failed
+
+3. SSH Session Timeout:
+   - Event Type: Session
+   - Event Date: 2023-10-15 12:45:30
+   - User: charlie
+   - Source IP: 192.168.1.100
+   - Session Duration: 30 minutes
+   - Status: Timeout
+
+4. Suspicious SSH Connection:
+   - Event Type: Connection
+   - Event Date: 2023-10-15 14:20:15
+   - User: david
+   - Source IP: 203.0.113.45
+   - Authentication Method: publickey
+   - Status: Suspicious Connection
+
+5. SSH Key Expiry Warning:
+   - Event Type: Key Management
+   - Event Date: 2023-10-15 15:30:00
+   - User: eva
+   - Key Expiry Date: 2023-10-30
+   - Status: Expiry Warning
+
+6. Brute Force SSH Attack (Multiple Failed Logins):
+   - Event Type: Authentication
+   - Event Date: 2023-10-16 09:00:00
+   - User: intruder
+   - Source IP: 192.168.1.200
+   - Authentication Method: password
+   - Status: Multiple Failed Logins
+
+7. SSH Banner Change:
+   - Event Type: Configuration
+   - Event Date: 2023-10-16 10:15:00
+   - User: admin
+   - Source IP: 192.168.1.100
+   - Configuration Change: Banner text updated
+   - Status: Configuration Change
+
+8. Unusual SSH Port Activity:
+   - Event Type: Connection
+   - Event Date: 2023-10-16 11:30:00
+   - User: admin
+   - Source IP: 192.168.1.100
+   - Destination Port: 2222
+   - Status: Unusual Port Activity
+
+9. SSH Password Change:
+   - Event Type: Authentication
+   - Event Date: 2023-10-16 12:45:00
+   - User: alice
+   - Source IP: 192.168.1.100
+   - Password Change
+   - Status: Password Updated
+
+10. Remote SSH Access:
+    - Event Type: Connection
+    - Event Date: 2023-10-16 14:00:00
+    - User: remoteadmin
+    - Source IP: 203.0.113.55
+    - Authentication Method: publickey
+    - Status: Successful
+Sample OpenSSH Security Event Logs (Additional):
+
+11. SSH Connection from New IP:
+    - Event Type: Connection
+    - Event Date: 2023-10-16 15:15:00
+    - User: alice
+    - Source IP: 192.168.1.110
+    - Authentication Method: publickey
+    - Status: Successful
+
+12. SSH User Account Lockout:
+    - Event Type: Authentication
+    - Event Date: 2023-10-16 16:30:00
+    - User: bob
+    - Source IP: 192.168.1.100
+    - Authentication Method: password
+    - Status: Account Lockout
+
+13. Unauthorized SSH Command Execution:
+    - Event Type: Command Execution
+    - Event Date: 2023-10-16 17:45:00
+    - User: charlie
+    - Source IP: 192.168.1.100
+    - Executed Command: rm -rf /
+    - Status: Unauthorized Execution
+
+14. Suspicious SSH Key Generation:
+    - Event Type: Key Management
+    - Event Date: 2023-10-16 19:00:00
+    - User: david
+    - Key Type: RSA
+    - Key Length: 1024 bits
+    - Status: Suspicious Key Generation
+
+15. SSH Protocol Version Change:
+    - Event Type: Configuration
+    - Event Date: 2023-10-16 20:15:00
+    - User: eva
+    - Source IP: 192.168.1.100
+    - Configuration Change: Protocol version upgraded to SSHv2
+    - Status: Configuration Change
+
+16. Invalid SSH Client Connection:
+    - Event Type: Connection
+    - Event Date: 2023-10-16 21:30:00
+    - User: intruder
+    - Source IP: 192.168.1.200
+    - Authentication Method: none
+    - Status: Invalid Connection
+
+17. SSH Key Rotation:
+    - Event Type: Key Management
+    - Event Date: 2023-10-16 22:45:00
+    - User: admin
+    - Key Rotation: Old key replaced with a new one
+    - Status: Key Rotation
+
+18. Remote SSH Tunneling:
+    - Event Type: Connection
+    - Event Date: 2023-10-16 23:00:00
+    - User: remoteadmin
+    - Source IP: 203.0.113.55
+    - Tunneling to Internal Network
+    - Status: Tunneling
+
+19. Expired SSH Key:
+    - Event Type: Key Management
+    - Event Date: 2023-10-16 23:15:00
+    - User: alice
+    - Expired Key: Key no longer valid
+    - Status: Key Expiry
+
+20. SSH Administrator Login:
+    - Event Type: Authentication
+    - Event Date: 2023-10-16 23:30:00
+    - User: sysadmin
+    - Source IP: 192.168.1.100
+    - Authentication Method: publickey
+    - Status: Successful Administrator Login
+Sample OpenSSH Security Event Logs:
+
+1. Successful SSH Login:
+   - Event Type: Authentication
+   - Event Date: 2023-10-15 10:30:45
+   - User: alice
+   - Source IP: 192.168.1.100
+   - Authentication Method: publickey
+   - Status: Successful
+
+2. Failed SSH Login (Invalid Password):
+   - Event Type: Authentication
+   - Event Date: 2023-10-15 11:15:20
+   - User: bob
+   - Source IP: 192.168.1.100
+   - Authentication Method: password
+   - Status: Failed
+
+3. SSH Session Timeout:
+   - Event Type: Session
+   - Event Date: 2023-10-15 12:45:30
+   - User: charlie
+   - Source IP: 192.168.1.100
+   - Session Duration: 30 minutes
+   - Status: Timeout
+
+4. Suspicious SSH Connection:
+   - Event Type: Connection
+   - Event Date: 2023-10-15 14:20:15
+   - User: david
+   - Source IP: 203.0.113.45
+   - Authentication Method: publickey
+   - Status: Suspicious Connection
+
+5. SSH Key Expiry Warning:
+   - Event Type: Key Management
+   - Event Date: 2023-10-15 15:30:00
+   - User: eva
+   - Key Expiry Date: 2023-10-30
+   - Status: Expiry Warning
+
+6. Brute Force SSH Attack (Multiple Failed Logins):
+   - Event Type: Authentication
+   - Event Date: 2023-10-16 09:00:00
+   - User: intruder
+   - Source IP: 192.168.1.200
+   - Authentication Method: password
+   - Status: Multiple Failed Logins
+
+7. SSH Banner Change:
+   - Event Type: Configuration
+   - Event Date: 2023-10-16 10:15:00
+   - User: admin
+   - Source IP: 192.168.1.100
+   - Configuration Change: Banner text updated
+   - Status: Configuration Change
+
+8. Unusual SSH Port Activity:
+   - Event Type: Connection
+   - Event Date: 2023-10-16 11:30:00
+   - User: admin
+   - Source IP: 192.168.1.100
+   - Destination Port: 2222
+   - Status: Unusual Port Activity
+
+9. SSH Password Change:
+   - Event Type: Authentication
+   - Event Date: 2023-10-16 12:45:00
+   - User: alice
+   - Source IP: 192.168.1.100
+   - Password Change
+   - Status: Password Updated
+
+10. Remote SSH Access:
+    - Event Type: Connection
+    - Event Date: 2023-10-16 14:00:00
+    - User: remoteadmin
+    - Source IP: 203.0.113.55
+    - Authentication Method: publickey
+    - Status: Successful
+Sample OpenSSH Security Event Logs (Additional):
+
+11. SSH Connection from New IP:
+    - Event Type: Connection
+    - Event Date: 2023-10-16 15:15:00
+    - User: alice
+    - Source IP: 192.168.1.110
+    - Authentication Method: publickey
+    - Status: Successful
+
+12. SSH User Account Lockout:
+    - Event Type: Authentication
+    - Event Date: 2023-10-16 16:30:00
+    - User: bob
+    - Source IP: 192.168.1.100
+    - Authentication Method: password
+    - Status: Account Lockout
+
+13. Unauthorized SSH Command Execution:
+    - Event Type: Command Execution
+    - Event Date: 2023-10-16 17:45:00
+    - User: charlie
+    - Source IP: 192.168.1.100
+    - Executed Command: rm -rf /
+    - Status: Unauthorized Execution
+
+14. Suspicious SSH Key Generation:
+    - Event Type: Key Management
+    - Event Date: 2023-10-16 19:00:00
+    - User: david
+    - Key Type: RSA
+    - Key Length: 1024 bits
+    - Status: Suspicious Key Generation
+
+15. SSH Protocol Version Change:
+    - Event Type: Configuration
+    - Event Date: 2023-10-16 20:15:00
+    - User: eva
+    - Source IP: 192.168.1.100
+    - Configuration Change: Protocol version upgraded to SSHv2
+    - Status: Configuration Change
+
+16. Invalid SSH Client Connection:
+    - Event Type: Connection
+    - Event Date: 2023-10-16 21:30:00
+    - User: intruder
+    - Source IP: 192.168.1.200
+    - Authentication Method: none
+    - Status: Invalid Connection
+
+17. SSH Key Rotation:
+    - Event Type: Key Management
+    - Event Date: 2023-10-16 22:45:00
+    - User: admin
+    - Key Rotation: Old key replaced with a new one
+    - Status: Key Rotation
+
+18. Remote SSH Tunneling:
+    - Event Type: Connection
+    - Event Date: 2023-10-16 23:00:00
+    - User: remoteadmin
+    - Source IP: 203.0.113.55
+    - Tunneling to Internal Network
+    - Status: Tunneling
+
+19. Expired SSH Key:
+    - Event Type: Key Management
+    - Event Date: 2023-10-16 23:15:00
+    - User: alice
+    - Expired Key: Key no longer valid
+    - Status: Key Expiry
+
+20. SSH Administrator Login:
+    - Event Type: Authentication
+    - Event Date: 2023-10-16 23:30:00
+    - User: sysadmin
+    - Source IP: 192.168.1.100
+    - Authentication Method: publickey
+    - Status: Successful Administrator Login

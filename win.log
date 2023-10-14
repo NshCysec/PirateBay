@@ -1,0 +1,326 @@
+Sample Windows Security Event Logs:
+
+1. Successful Login Attempt:
+   - Event Type: Security
+   - Event Date: 2023-10-15 10:30:45
+   - Event ID: 4624
+   - User: johndoe
+   - Source IP: 192.168.1.100
+   - Workstation Name: PC001
+   - Logon Type: Interactive
+   - Logon Process: User32
+   - Authentication Package: NTLM
+   - Status: Successful
+
+2. Failed Login Attempt:
+   - Event Type: Security
+   - Event Date: 2023-10-15 11:15:20
+   - Event ID: 4625
+   - User: johndoe
+   - Source IP: 192.168.1.100
+   - Workstation Name: PC002
+   - Logon Type: Network
+   - Logon Process: NtLmSsp
+   - Authentication Package: NTLM
+   - Status: Failure
+
+3. Account Lockout:
+   - Event Type: Security
+   - Event Date: 2023-10-15 12:45:30
+   - Event ID: 4740
+   - User: johndoe
+   - Source IP: 192.168.1.100
+   - Workstation Name: PC003
+   - Account: johndoe
+   - Caller Computer: DC001
+   - Status: Account Lockout
+
+4. File Access Denied:
+   - Event Type: Security
+   - Event Date: 2023-10-15 14:20:15
+   - Event ID: 5140
+   - User: johndoe
+   - Source IP: 192.168.1.100
+   - Object Type: File
+   - Object Name: C:\sensitive-file.txt
+   - Operation: Read
+   - Status: Access Denied
+
+5. Successful Logoff:
+   - Event Type: Security
+   - Event Date: 2023-10-15 15:30:00
+   - Event ID: 4634
+   - User: johndoe
+   - Source IP: 192.168.1.100
+   - Logon Type: Interactive
+   - Logon Process: User32
+   - Authentication Package: NTLM
+   - Status: Successful
+
+6. User Account Created:
+   - Event Type: Security
+   - Event Date: 2023-10-16 09:00:00
+   - Event ID: 4720
+   - User: adminuser
+   - Description: User account 'newuser' was created.
+
+7. User Account Deleted:
+   - Event Type: Security
+   - Event Date: 2023-10-16 10:15:00
+   - Event ID: 4726
+   - User: adminuser
+   - Description: User account 'olduser' was deleted.
+
+8. Group Membership Change:
+   - Event Type: Security
+   - Event Date: 2023-10-16 11:30:00
+   - Event ID: 4728
+   - User: adminuser
+   - Description: A member was added to a security-enabled global group.
+
+9. Password Change:
+   - Event Type: Security
+   - Event Date: 2023-10-16 12:45:00
+   - Event ID: 4723
+   - User: johndoe
+   - Description: An attempt was made to change a user's password.
+
+10. Privilege Use:
+    - Event Type: Security
+    - Event Date: 2023-10-16 14:00:00
+    - Event ID: 4672
+    - User: johndoe
+    - Description: Special privileges assigned to new logon.
+
+11. Account Logon Session Established:
+    - Event Type: Security
+    - Event Date: 2023-10-16 15:15:00
+    - Event ID: 4647
+    - User: johndoe
+    - Description: User initiated logoff.
+
+12. Service Started:
+    - Event Type: Security
+    - Event Date: 2023-10-16 16:30:00
+    - Event ID: 4697
+    - User: SYSTEM
+    - Description: Service started.
+
+13. Service Stopped:
+    - Event Type: Security
+    - Event Date: 2023-10-16 17:45:00
+    - Event ID: 4697
+    - User: SYSTEM
+    - Description: Service stopped.
+
+14. Policy Change:
+    - Event Type: Security
+    - Event Date: 2023-10-16 19:00:00
+    - Event ID: 4719
+    - User: adminuser
+    - Description: System audit policy was changed.
+
+15. Object Access:
+    - Event Type: Security
+    - Event Date: 2023-10-16 20:15:00
+    - Event ID: 4663
+    - User: johndoe
+    - Description: An attempt was made to access an object.
+
+16. Process Creation:
+    - Event Type: Security
+    - Event Date: 2023-10-16 21:30:00
+    - Event ID: 4688
+    - User: johndoe
+    - Description: A new process has been created.
+
+17. File Creation:
+    - Event Type: Security
+    - Event Date: 2023-10-16 22:45:00
+    - Event ID: 4663
+    - User: johndoe
+    - Description: A new file was created.
+
+18. File Deletion:
+    - Event Type: Security
+    - Event Date: 2023-10-16 23:00:00
+    - Event ID: 4660
+    - User: johndoe
+    - Description: An object was deleted.
+
+19. Account Disabled:
+    - Event Type: Security
+    - Event Date: 2023-10-16 23:15:00
+    - Event ID: 4725
+    - User: adminuser
+    - Description: User account 'olduser' was disabled.
+
+20. Security Group Membership Change:
+    - Event Type: Security
+    - Event Date: 2023-10-16 23:30:00
+    - Event ID: 4730
+    - User: adminuser
+    - Description: A member was removed from a security-enabled global group.
+Sample Windows Security Event Logs:
+
+1. Successful Login Attempt:
+   - Event Type: Security
+   - Event Date: 2023-10-15 10:30:45
+   - Event ID: 4624
+   - User: johndoe
+   - Source IP: 192.168.1.100
+   - Workstation Name: PC001
+   - Logon Type: Interactive
+   - Logon Process: User32
+   - Authentication Package: NTLM
+   - Status: Successful
+
+2. Failed Login Attempt:
+   - Event Type: Security
+   - Event Date: 2023-10-15 11:15:20
+   - Event ID: 4625
+   - User: johndoe
+   - Source IP: 192.168.1.100
+   - Workstation Name: PC002
+   - Logon Type: Network
+   - Logon Process: NtLmSsp
+   - Authentication Package: NTLM
+   - Status: Failure
+
+3. Account Lockout:
+   - Event Type: Security
+   - Event Date: 2023-10-15 12:45:30
+   - Event ID: 4740
+   - User: johndoe
+   - Source IP: 192.168.1.100
+   - Workstation Name: PC003
+   - Account: johndoe
+   - Caller Computer: DC001
+   - Status: Account Lockout
+
+4. File Access Denied:
+   - Event Type: Security
+   - Event Date: 2023-10-15 14:20:15
+   - Event ID: 5140
+   - User: johndoe
+   - Source IP: 192.168.1.100
+   - Object Type: File
+   - Object Name: C:\sensitive-file.txt
+   - Operation: Read
+   - Status: Access Denied
+
+5. Successful Logoff:
+   - Event Type: Security
+   - Event Date: 2023-10-15 15:30:00
+   - Event ID: 4634
+   - User: johndoe
+   - Source IP: 192.168.1.100
+   - Logon Type: Interactive
+   - Logon Process: User32
+   - Authentication Package: NTLM
+   - Status: Successful
+
+6. User Account Created:
+   - Event Type: Security
+   - Event Date: 2023-10-16 09:00:00
+   - Event ID: 4720
+   - User: adminuser
+   - Description: User account 'newuser' was created.
+
+7. User Account Deleted:
+   - Event Type: Security
+   - Event Date: 2023-10-16 10:15:00
+   - Event ID: 4726
+   - User: adminuser
+   - Description: User account 'olduser' was deleted.
+
+8. Group Membership Change:
+   - Event Type: Security
+   - Event Date: 2023-10-16 11:30:00
+   - Event ID: 4728
+   - User: adminuser
+   - Description: A member was added to a security-enabled global group.
+
+9. Password Change:
+   - Event Type: Security
+   - Event Date: 2023-10-16 12:45:00
+   - Event ID: 4723
+   - User: johndoe
+   - Description: An attempt was made to change a user's password.
+
+10. Privilege Use:
+    - Event Type: Security
+    - Event Date: 2023-10-16 14:00:00
+    - Event ID: 4672
+    - User: johndoe
+    - Description: Special privileges assigned to new logon.
+
+11. Account Logon Session Established:
+    - Event Type: Security
+    - Event Date: 2023-10-16 15:15:00
+    - Event ID: 4647
+    - User: johndoe
+    - Description: User initiated logoff.
+
+12. Service Started:
+    - Event Type: Security
+    - Event Date: 2023-10-16 16:30:00
+    - Event ID: 4697
+    - User: SYSTEM
+    - Description: Service started.
+
+13. Service Stopped:
+    - Event Type: Security
+    - Event Date: 2023-10-16 17:45:00
+    - Event ID: 4697
+    - User: SYSTEM
+    - Description: Service stopped.
+
+14. Policy Change:
+    - Event Type: Security
+    - Event Date: 2023-10-16 19:00:00
+    - Event ID: 4719
+    - User: adminuser
+    - Description: System audit policy was changed.
+
+15. Object Access:
+    - Event Type: Security
+    - Event Date: 2023-10-16 20:15:00
+    - Event ID: 4663
+    - User: johndoe
+    - Description: An attempt was made to access an object.
+
+16. Process Creation:
+    - Event Type: Security
+    - Event Date: 2023-10-16 21:30:00
+    - Event ID: 4688
+    - User: johndoe
+    - Description: A new process has been created.
+
+17. File Creation:
+    - Event Type: Security
+    - Event Date: 2023-10-16 22:45:00
+    - Event ID: 4663
+    - User: johndoe
+    - Description: A new file was created.
+
+18. File Deletion:
+    - Event Type: Security
+    - Event Date: 2023-10-16 23:00:00
+    - Event ID: 4660
+    - User: johndoe
+    - Description: An object was deleted.
+
+19. Account Disabled:
+    - Event Type: Security
+    - Event Date: 2023-10-16 23:15:00
+    - Event ID: 4725
+    - User: adminuser
+    - Description: User account 'olduser' was disabled.
+
+20. Security Group Membership Change:
+    - Event Type: Security
+    - Event Date: 2023-10-16 23:30:00
+    - Event ID: 4730
+    - User: adminuser
+    - Description: A member was removed from a security-enabled global group.

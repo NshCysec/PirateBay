@@ -1,0 +1,312 @@
+Sample macOS Security Event Logs:
+
+1. Successful Login Attempt:
+   - Event Type: Security
+   - Event Date: 2023-10-15 10:30:45
+   - Event ID: 1024
+   - User: johndoe
+   - Source IP: 192.168.1.100
+   - Logon Type: Interactive
+   - Logon Process: LoginWindow
+   - Authentication Method: Password
+   - Status: Successful
+
+2. Failed Login Attempt:
+   - Event Type: Security
+   - Event Date: 2023-10-15 11:15:20
+   - Event ID: 1026
+   - User: johndoe
+   - Source IP: 192.168.1.100
+   - Logon Type: Network
+   - Logon Process: LoginWindow
+   - Authentication Method: Password
+   - Status: Failure
+
+3. Account Lockout:
+   - Event Type: Security
+   - Event Date: 2023-10-15 12:45:30
+   - Event ID: 1030
+   - User: johndoe
+   - Account: johndoe
+   - Status: Account Lockout
+
+4. File Access Denied:
+   - Event Type: Security
+   - Event Date: 2023-10-15 14:20:15
+   - Event ID: 1102
+   - User: johndoe
+   - Object Type: File
+   - Object Name: /path/to/sensitive-file.txt
+   - Operation: Read
+   - Status: Access Denied
+
+5. Successful Logoff:
+   - Event Type: Security
+   - Event Date: 2023-10-15 15:30:00
+   - Event ID: 1032
+   - User: johndoe
+   - Logon Type: Interactive
+   - Logon Process: LoginWindow
+   - Authentication Method: Password
+   - Status: Successful
+
+6. User Account Created:
+   - Event Type: Security
+   - Event Date: 2023-10-16 09:00:00
+   - Event ID: 1060
+   - User: adminuser
+   - Description: User account 'newuser' was created.
+
+7. User Account Deleted:
+   - Event Type: Security
+   - Event Date: 2023-10-16 10:15:00
+   - Event ID: 1062
+   - User: adminuser
+   - Description: User account 'olduser' was deleted.
+
+8. Group Membership Change:
+   - Event Type: Security
+   - Event Date: 2023-10-16 11:30:00
+   - Event ID: 1064
+   - User: adminuser
+   - Description: A member was added to a security-enabled group.
+
+9. Password Change:
+   - Event Type: Security
+   - Event Date: 2023-10-16 12:45:00
+   - Event ID: 1066
+   - User: johndoe
+   - Description: Password for user 'johndoe' was changed.
+
+10. Privilege Use:
+    - Event Type: Security
+    - Event Date: 2023-10-16 14:00:00
+    - Event ID: 1070
+    - User: johndoe
+    - Description: Special privileges were assigned to a new session.
+
+11. Account Logon Session Established:
+    - Event Type: Security
+    - Event Date: 2023-10-16 15:15:00
+    - Event ID: 1072
+    - User: johndoe
+    - Description: User initiated logoff.
+
+12. Service Started:
+    - Event Type: Security
+    - Event Date: 2023-10-16 16:30:00
+    - Event ID: 1080
+    - User: System
+    - Description: A system service was started.
+
+13. Service Stopped:
+    - Event Type: Security
+    - Event Date: 2023-10-16 17:45:00
+    - Event ID: 1082
+    - User: System
+    - Description: A system service was stopped.
+
+14. Policy Change:
+    - Event Type: Security
+    - Event Date: 2023-10-16 19:00:00
+    - Event ID: 1090
+    - User: adminuser
+    - Description: A security policy was changed.
+
+15. Object Access:
+    - Event Type: Security
+    - Event Date: 2023-10-16 20:15:00
+    - Event ID: 1100
+    - User: johndoe
+    - Description: An attempt was made to access an object.
+
+16. Process Creation:
+    - Event Type: Security
+    - Event Date: 2023-10-16 21:30:00
+    - Event ID: 1104
+    - User: johndoe
+    - Description: A new process has been created.
+
+17. File Creation:
+    - Event Type: Security
+    - Event Date: 2023-10-16 22:45:00
+    - Event ID: 1106
+    - User: johndoe
+    - Description: A new file was created.
+
+18. File Deletion:
+    - Event Type: Security
+    - Event Date: 2023-10-16 23:00:00
+    - Event ID: 1108
+    - User: johndoe
+    - Description: An object was deleted.
+
+19. Account Disabled:
+    - Event Type: Security
+    - Event Date: 2023-10-16 23:15:00
+    - Event ID: 1110
+    - User: adminuser
+    - Description: User account 'olduser' was disabled.
+
+20. Security Group Membership Change:
+    - Event Type: Security
+    - Event Date: 2023-10-16 23:30:00
+    - Event ID: 1112
+    - User: adminuser
+    - Description: A member was removed from a security-enabled group.
+Sample macOS Security Event Logs:
+
+1. Successful Login Attempt:
+   - Event Type: Security
+   - Event Date: 2023-10-15 10:30:45
+   - Event ID: 1024
+   - User: johndoe
+   - Source IP: 192.168.1.100
+   - Logon Type: Interactive
+   - Logon Process: LoginWindow
+   - Authentication Method: Password
+   - Status: Successful
+
+2. Failed Login Attempt:
+   - Event Type: Security
+   - Event Date: 2023-10-15 11:15:20
+   - Event ID: 1026
+   - User: johndoe
+   - Source IP: 192.168.1.100
+   - Logon Type: Network
+   - Logon Process: LoginWindow
+   - Authentication Method: Password
+   - Status: Failure
+
+3. Account Lockout:
+   - Event Type: Security
+   - Event Date: 2023-10-15 12:45:30
+   - Event ID: 1030
+   - User: johndoe
+   - Account: johndoe
+   - Status: Account Lockout
+
+4. File Access Denied:
+   - Event Type: Security
+   - Event Date: 2023-10-15 14:20:15
+   - Event ID: 1102
+   - User: johndoe
+   - Object Type: File
+   - Object Name: /path/to/sensitive-file.txt
+   - Operation: Read
+   - Status: Access Denied
+
+5. Successful Logoff:
+   - Event Type: Security
+   - Event Date: 2023-10-15 15:30:00
+   - Event ID: 1032
+   - User: johndoe
+   - Logon Type: Interactive
+   - Logon Process: LoginWindow
+   - Authentication Method: Password
+   - Status: Successful
+
+6. User Account Created:
+   - Event Type: Security
+   - Event Date: 2023-10-16 09:00:00
+   - Event ID: 1060
+   - User: adminuser
+   - Description: User account 'newuser' was created.
+
+7. User Account Deleted:
+   - Event Type: Security
+   - Event Date: 2023-10-16 10:15:00
+   - Event ID: 1062
+   - User: adminuser
+   - Description: User account 'olduser' was deleted.
+
+8. Group Membership Change:
+   - Event Type: Security
+   - Event Date: 2023-10-16 11:30:00
+   - Event ID: 1064
+   - User: adminuser
+   - Description: A member was added to a security-enabled group.
+
+9. Password Change:
+   - Event Type: Security
+   - Event Date: 2023-10-16 12:45:00
+   - Event ID: 1066
+   - User: johndoe
+   - Description: Password for user 'johndoe' was changed.
+
+10. Privilege Use:
+    - Event Type: Security
+    - Event Date: 2023-10-16 14:00:00
+    - Event ID: 1070
+    - User: johndoe
+    - Description: Special privileges were assigned to a new session.
+
+11. Account Logon Session Established:
+    - Event Type: Security
+    - Event Date: 2023-10-16 15:15:00
+    - Event ID: 1072
+    - User: johndoe
+    - Description: User initiated logoff.
+
+12. Service Started:
+    - Event Type: Security
+    - Event Date: 2023-10-16 16:30:00
+    - Event ID: 1080
+    - User: System
+    - Description: A system service was started.
+
+13. Service Stopped:
+    - Event Type: Security
+    - Event Date: 2023-10-16 17:45:00
+    - Event ID: 1082
+    - User: System
+    - Description: A system service was stopped.
+
+14. Policy Change:
+    - Event Type: Security
+    - Event Date: 2023-10-16 19:00:00
+    - Event ID: 1090
+    - User: adminuser
+    - Description: A security policy was changed.
+
+15. Object Access:
+    - Event Type: Security
+    - Event Date: 2023-10-16 20:15:00
+    - Event ID: 1100
+    - User: johndoe
+    - Description: An attempt was made to access an object.
+
+16. Process Creation:
+    - Event Type: Security
+    - Event Date: 2023-10-16 21:30:00
+    - Event ID: 1104
+    - User: johndoe
+    - Description: A new process has been created.
+
+17. File Creation:
+    - Event Type: Security
+    - Event Date: 2023-10-16 22:45:00
+    - Event ID: 1106
+    - User: johndoe
+    - Description: A new file was created.
+
+18. File Deletion:
+    - Event Type: Security
+    - Event Date: 2023-10-16 23:00:00
+    - Event ID: 1108
+    - User: johndoe
+    - Description: An object was deleted.
+
+19. Account Disabled:
+    - Event Type: Security
+    - Event Date: 2023-10-16 23:15:00
+    - Event ID: 1110
+    - User: adminuser
+    - Description: User account 'olduser' was disabled.
+
+20. Security Group Membership Change:
+    - Event Type: Security
+    - Event Date: 2023-10-16 23:30:00
+    - Event ID: 1112
+    - User: adminuser
+    - Description: A member was removed from a security-enabled group.
