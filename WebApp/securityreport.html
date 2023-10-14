@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Security Analysis Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <script>
+        function readCSV(file) {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var data = xhr.responseText;
+                    var lines = data.split("\n");
+                    var table = document.getElementById("data-table");
+                    table.innerHTML = ""; // Clear existing data
+
+                    // Create table headers
+                    var headerRow = document.createElement("tr");
+                    var headers = lines[0].split(",");
+                    for (var i = 0; i < headers.length; i++) {
+                        var header = document.createElement("th");
+                        header.textContent = headers[i];
+                        headerRow.appendChild(header);
+                    }
+                    table.appendChild(headerRow);
+
+                    // Parse and populate the table with CSV data
+                    for (var j = 1; j < lines.length - 1; j++) { // Skip the last empty line
+                        var row = document.createElement("tr");
+                        var values = lines[j].split(",");
+                        for (var k = 0; k < values.length; k++) {
+                            var cell = document.createElement("td");
+                            cell.textContent = values[k];
+                            row.appendChild(cell);
+                        }
+                        table.appendChild(row);
+                    }
+                }
+            };
+            xhr.open("GET", file, true);
+            xhr.send();
+        }
+        window.onload = function() {
+            readCSV("security_report69.csv"); // Change the file name to your CSV file
+        };
+    </script>
+</head>
+<body>
+    <h1>Security Analysis Report</h1>
+    <table id="data-table">
+        <!-- The table will be populated using JavaScript -->
+    </table>
+</body>
+</html>

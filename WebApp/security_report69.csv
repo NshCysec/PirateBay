@@ -1,0 +1,53 @@
+File,Keyword,Occurrences
+/Users/itsmr/Desktop/Cybercup/Log Files/openssh.log,authentication,15
+/Users/itsmr/Desktop/Cybercup/Log Files/openssh.log,failed login,2
+/Users/itsmr/Desktop/Cybercup/Log Files/openssh.log,authentication,15
+/Users/itsmr/Desktop/Cybercup/Log Files/openssh.log,failed login,2
+/Users/itsmr/Desktop/Cybercup/Log Files/Mac.log,authentication,3
+/Users/itsmr/Desktop/Cybercup/Log Files/Mac.log,failed login,1
+/Users/itsmr/Desktop/Cybercup/Log Files/Mac.log,access denied,2
+/Users/itsmr/Desktop/Cybercup/Log Files/Mac.log,authentication,3
+/Users/itsmr/Desktop/Cybercup/Log Files/Mac.log,failed login,1
+/Users/itsmr/Desktop/Cybercup/Log Files/Mac.log,access denied,2
+/Users/itsmr/Desktop/Cybercup/Log Files/Apache.log,access denied,1
+/Users/itsmr/Desktop/Cybercup/Log Files/Apache.log,SQL injection,1
+/Users/itsmr/Desktop/Cybercup/Log Files/Apache.log,access denied,1
+/Users/itsmr/Desktop/Cybercup/Log Files/Apache.log,SQL injection,1
+/Users/itsmr/Desktop/Cybercup/Log Files/Linux.log,authentication,8
+/Users/itsmr/Desktop/Cybercup/Log Files/Linux.log,failed login,2
+/Users/itsmr/Desktop/Cybercup/Log Files/Linux.log,malware detected,1
+/Users/itsmr/Desktop/Cybercup/Log Files/Linux.log,brute force attack,2
+/Users/itsmr/Desktop/Cybercup/Log Files/Linux.log,unauthorized file access,2
+/Users/itsmr/Desktop/Cybercup/Log Files/Linux.log,port scanning,2
+/Users/itsmr/Desktop/Cybercup/Log Files/Linux.log,authentication,8
+/Users/itsmr/Desktop/Cybercup/Log Files/Linux.log,failed login,2
+/Users/itsmr/Desktop/Cybercup/Log Files/Linux.log,malware detected,1
+/Users/itsmr/Desktop/Cybercup/Log Files/Linux.log,brute force attack,2
+/Users/itsmr/Desktop/Cybercup/Log Files/Linux.log,unauthorized file access,2
+/Users/itsmr/Desktop/Cybercup/Log Files/Linux.log,port scanning,2
+/Users/itsmr/Desktop/Cybercup/Log Files/win.log,authentication,3
+/Users/itsmr/Desktop/Cybercup/Log Files/win.log,failed login,1
+/Users/itsmr/Desktop/Cybercup/Log Files/win.log,access denied,2
+/Users/itsmr/Desktop/Cybercup/Log Files/win.log,authentication,3
+/Users/itsmr/Desktop/Cybercup/Log Files/win.log,failed login,1
+/Users/itsmr/Desktop/Cybercup/Log Files/win.log,access denied,2
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,unauthorized access,1
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,SQL injection,1
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,anomaly detected,1
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,DDoS attack,2
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,unauthorized access,1
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,SQL injection,1
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,anomaly detected,1
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,DDoS attack,2
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,threat intelligence update,1
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,firewall log rotation,2
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,NAT pool exhaustion,2
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,VPN tunnel termination,1
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,suspicious MAC address,2
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,DHCP lease renewal,2
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,gateway failover,2
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,SNMP configuration change,1
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,firewall health check,2
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,syslog server configuration,2
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,IPv6 routing update,1
+/Users/itsmr/Desktop/Cybercup/Log Files/fwrouter.log,firewall license renewal,1

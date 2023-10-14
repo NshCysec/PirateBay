@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Attack Technique Information</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #ffffff;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .content-container {
+            display: flex;
+            flex-direction: column; /* Stack content vertically */
+            max-height: 70vh; /* Set a maximum height for vertical scrolling */
+            overflow-y: auto; /* Enable vertical scrolling when content exceeds the container height */
+        }
+
+        .content-box {
+            background-color: #f0f5ff;
+            border: 1px solid #d1e6ff;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            transition: box-shadow 0.3s, transform 0.3s;
+            border-radius: 20px;
+        }
+
+        .content-box:hover {
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+            transform: scale(1.03);
+        }
+
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h2 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #1f67f2;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Mitre Attack Techniques</h1>
+    <div class="content-container">
+        <div class="content-box">
+            <h2><a href="https://attack.mitre.org/techniques/T1078/" target="_blank">Link: https://attack.mitre.org/techniques/T1078/</a></h2>
+            <p>Adversaries may obtain and abuse credentials of existing accounts as a means of gaining Initial Access, Persistence, Privilege Escalation, or Defense Evasion. Compromised credentials may be used to bypass access controls placed on various resources on systems within the network and may even be used for persistent access to remote systems and externally available services, such as VPNs, Outlook Web Access, network devices, and remote desktop.[1] Compromised credentials may also grant an adversary increased privilege to specific systems or access to restricted areas of the network. Adversaries may choose not to use malware or tools in conjunction with the legitimate access those credentials provide to make it harder to detect their presence.</p>
+        </div>
+
+        <div class="content-box">
+            <h2><a href="https://attack.mitre.org/techniques/T1110/" target="_blank">Link: https://attack.mitre.org/techniques/T1110/</a></h2>
+            <p>Adversaries may use brute force techniques to gain access to accounts when passwords are unknown or when password hashes are obtained. Without knowledge of the password for an account or set of accounts, an adversary may systematically guess the password using a repetitive or iterative mechanism. Brute forcing passwords can take place via interaction with a service that will check the validity of those credentials or offline against previously acquired credential data, such as password hashes.</p>
+        </div>
+    
+        <div class="content-box">
+            <h2><a href="https://attack.mitre.org/techniques/T1082/" target="_blank">Link: https://attack.mitre.org/techniques/T1082/</a></h2>
+            <p>An adversary may attempt to get detailed information about the operating system and hardware, including version, patches, hotfixes, service packs, and architecture. Adversaries may use the information from System Information Discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.</p>
+        </div>
+    
+        <div class="content-box">
+            <h2><a href="https://attack.mitre.org/techniques/T1190/" target="_blank">Link: https://attack.mitre.org/techniques/T1190/</a></h2>
+            <p>Adversaries may attempt to exploit a weakness in an Internet-facing host or system to initially access a network. The weakness in the system can be a software bug, a temporary glitch, or a misconfiguration.</p>
+        </div>
+    
+        <div class="content-box">
+            <h2><a href="https://attack.mitre.org/techniques/T1059/" target="_blank">Link: https://attack.mitre.org/techniques/T1059/</a></h2>
+            <p>Adversaries may abuse command and script interpreters to execute commands, scripts, or binaries. These interfaces and languages provide ways of interacting with computer systems and are a common feature across many different platforms. Most systems come with some built-in command-line interface and scripting capabilities, for example, macOS and Linux distributions include some flavor of Unix Shell while Windows installations include the Windows Command Shell and PowerShell.</p>
+        </div>
+    
+        <div class="content-box">
+            <h2><a href="https://attack.mitre.org/techniques/T1498/" target="_blank">Link: https://attack.mitre.org/techniques/T1498/</a></h2>
+            <p>Adversaries may perform Network Denial of Service (DoS) attacks to degrade or block the availability of targeted resources to users. Network DoS can be performed by exhausting the network bandwidth services rely on. Example resources include specific websites, email services, DNS, and web-based applications. Adversaries have been observed conducting network DoS attacks for political purposes[1] and to support other malicious activities, including distraction[2], hacktivism, and extortion.[3]</p>
+        </div>
+    
+    </div>
+</body>
+
+</html>
