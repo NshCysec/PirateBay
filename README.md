@@ -26,4 +26,4 @@ The Piratebay Security Analysis Tool is a comprehensive security analysis tool d
 4. Review the analysis results to identify security threats and areas of compromise.
 5. Refer to the troubleshoot page for recommended actions.
 
-## Usage
+
