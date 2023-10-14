@@ -1,0 +1,228 @@
+Sample Linux System Logs (30+ Events):
+
+1. System Boot:
+   - Log Type: /var/log/boot.log
+   - Timestamp: 2023-10-20 08:00:00
+   - Log Message: System boot initiated
+
+2. SSH Login:
+   - Log Type: /var/log/auth.log
+   - Timestamp: 2023-10-20 08:15:00
+   - User: alice
+   - Remote IP: 192.168.1.100
+   - Authentication: Password
+   - Status: Successful login
+
+3. Kernel Panic:
+   - Log Type: /var/log/messages
+   - Timestamp: 2023-10-20 08:30:00
+   - Log Message: Kernel panic occurred, system rebooting
+
+4. User Account Creation:
+   - Log Type: /var/log/auth.log
+   - Timestamp: 2023-10-20 09:00:00
+   - User: bob
+   - Action: New user account created
+
+5. Failed Login Attempt:
+   - Log Type: /var/log/auth.log
+   - Timestamp: 2023-10-20 09:15:00
+   - User: charlie
+   - Remote IP: 192.168.1.110
+   - Authentication: Password
+   - Status: Failed login
+
+6. Disk Space Warning:
+   - Log Type: /var/log/syslog
+   - Timestamp: 2023-10-20 10:00:00
+   - Log Message: Disk space is running low
+
+7. Firewall Rule Modification:
+   - Log Type: /var/log/ufw.log
+   - Timestamp: 2023-10-20 10:15:00
+   - User: admin
+   - Log Message: Firewall rule modified
+
+8. Suspicious Process Activity:
+   - Log Type: /var/log/auth.log
+   - Timestamp: 2023-10-20 10:30:00
+   - User: david
+   - Log Message: Suspicious process activity detected
+
+9. Successful Sudo Command:
+   - Log Type: /var/log/auth.log
+   - Timestamp: 2023-10-20 11:00:00
+   - User: eve
+   - Command: sudo apt-get update
+   - Status: Command executed successfully
+
+10. Unauthorized File Access:
+    - Log Type: /var/log/auth.log
+    - Timestamp: 2023-10-20 11:15:00
+    - User: frank
+    - File: /etc/shadow
+    - Action: Unauthorized file access attempt
+
+11. Crontab Job Execution:
+    - Log Type: /var/log/cron.log
+    - Timestamp: 2023-10-20 11:30:00
+    - User: george
+    - Action: Crontab job executed
+
+12. Excessive CPU Usage:
+    - Log Type: /var/log/syslog
+    - Timestamp: 2023-10-20 12:00:00
+    - Log Message: Excessive CPU usage detected
+
+13. SSH Key Rotation:
+    - Log Type: /var/log/auth.log
+    - Timestamp: 2023-10-20 12:15:00
+    - User: alice
+    - Action: SSH key rotation
+
+14. Failed Package Installation:
+    - Log Type: /var/log/dpkg.log
+    - Timestamp: 2023-10-20 12:30:00
+    - Package: example-package
+    - Action: Package installation failed
+
+15. Root User Login:
+    - Log Type: /var/log/auth.log
+    - Timestamp: 2023-10-20 13:00:00
+    - User: root
+    - Remote IP: 192.168.1.100
+    - Authentication: Password
+    - Status: Successful login
+
+16. Filesystem Check:
+    - Log Type: /var/log/fsck.log
+    - Timestamp: 2023-10-20 13:15:00
+    - Log Message: Filesystem check initiated
+
+17. SSH Connection Timeout:
+    - Log Type: /var/log/auth.log
+    - Timestamp: 2023-10-20 13:30:00
+    - User: bob
+    - Remote IP: 192.168.1.110
+    - Status: SSH session timeout
+
+18. Log Rotation:
+    - Log Type: /var/log/syslog
+    - Timestamp: 2023-10-20 14:00:00
+    - Log Message: Log rotation completed
+
+19. Software Update:
+    - Log Type: /var/log/apt/history.log
+    - Timestamp: 2023-10-20 14:15:00
+    - Action: Software packages updated
+
+20. Invalid Input:
+    - Log Type: /var/log/auth.log
+    - Timestamp: 2023-10-20 14:30:00
+    - User: charlie
+    - Action: Invalid input received
+    - Status: Failed input validation
+
+21. Brute Force Attack:
+    - Log Type: /var/log/auth.log
+    - Timestamp: 2023-10-20 15:00:00
+    - User: intruder
+    - Remote IP: 192.168.1.200
+    - Authentication: Password
+    - Status: Brute force attack detected
+
+22. Network Configuration Change:
+    - Log Type: /var/log/syslog
+    - Timestamp: 2023-10-20 15:15:00
+    - User: admin
+    - Action: Network configuration changed
+
+23. Excessive Memory Usage:
+    - Log Type: /var/log/syslog
+    - Timestamp: 2023-10-20 15:30:00
+    - Log Message: Excessive memory usage detected
+
+24. SSH Key Authentication:
+    - Log Type: /var/log/auth.log
+    - Timestamp: 2023-10-20 16:00:00
+    - User: eve
+    - Authentication: SSH key
+    - Status: Successful key-based login
+
+25. Unauthorized Service Start:
+    - Log Type: /var/log/auth.log
+    - Timestamp: 2023-10-20 16:15:00
+    - User: frank
+    - Service: unauthorized-service
+    - Action: Unauthorized service start attempt
+
+26. Malware Detection:
+    - Log Type: /var/log/clamav/clamav.log
+    - Timestamp: 2023-10-20 16:30:00
+    - Log Message: Malware detected and quarantined
+
+27. Disk I/O Error:
+    - Log Type: /var/log/syslog
+    - Timestamp: 2023-10-20 17:00:00
+    - Log Message: Disk I/O error detected
+
+28. Unauthorized Database Access:
+    - Log Type: /var/log/auth.log
+    - Timestamp: 2023-10-20 17:15:00
+    - User: george
+    - Database: sensitive-database
+    - Action: Unauthorized database access attempt
+
+29. Failed Firewall Rule:
+    - Log Type: /var/log/ufw.log
+    - Timestamp: 2023-10-20 17:30:00
+    - User: admin
+    - Action: Failed firewall rule configuration
+
+30. Disk Full Warning:
+    - Log Type: /var/log/syslog
+    - Timestamp: 2023-10-20 18:00:00
+    - Log Message: Disk is almost full
+
+31. Suspicious Network Traffic:
+    - Log Type: /var/log/syslog
+    - Timestamp: 2023-10-20 18:15:00
+    - Log Message: Suspicious network traffic detected
+
+32. Unusual File Permission Change:
+    - Log Type: /var/log/auth.log
+    - Timestamp: 2023-10-20 18:30:00
+    - User: alice
+    - File: /etc/sensitive-file
+    - Action: File permission changed unexpectedly
+
+33. Port Scanning Attempt:
+    - Log Type: /var/log/auth.log
+    - Timestamp: 2023-10-20 19:00:00
+    - User: intruder
+    - Remote IP: 192.168.1.200
+    - Action: Port scanning detected
+
+34. Security Module Update:
+    - Log Type: /var/log/auth.log
+    - Timestamp: 2023-10-20 19:15:00
+    - User: admin
+    - Log Message: Security module updated to version 2.1
+
+35. Failed Disk SMART Test:
+    - Log Type: /var/log/syslog
+    - Timestamp: 2023-10-20 20:00:00
+    - Log Message: Disk SMART test failed
+
+36. Authentication Token Expiry:
+    - Log Type: /var/log/auth.log
+    - Timestamp: 2023-10-20 20:15:00
+    - User: charlie
+    - Action: Authentication token expired
+
+37. Unusual Process Termination:
+    - Log Type: /var/log/auth.log
+    - Timestamp: 2023-10-20 20:30:00
+    - User: david
+    - Process: suspicious-process
+    - Action: Process terminated unexpectedly

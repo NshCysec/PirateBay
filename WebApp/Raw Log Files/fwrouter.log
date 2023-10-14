@@ -1,0 +1,201 @@
+Sample Firewall and Router Logs:
+
+1. Firewall Rule Modification:
+   - Timestamp: 2023-10-25 09:15:00
+   - Device: Firewall-A
+   - Action: Firewall rule modified by admin
+   - Rule ID: 1024
+   - Description: Allow incoming traffic on port 80
+
+2. Unauthorized Access Attempt:
+   - Timestamp: 2023-10-25 10:30:00
+   - Device: Router-1
+   - Action: Unauthorized login attempt
+   - User: unauthorized_user
+   - Source IP: 192.168.1.10
+
+3. DDoS Attack Detected:
+   - Timestamp: 2023-10-25 11:45:00
+   - Device: Firewall-B
+   - Action: DDoS attack detected
+   - Affected IP: 203.0.113.5
+   - Traffic Rate: 10 Gbps
+
+4. Port Scan Alert:
+   - Timestamp: 2023-10-25 13:00:00
+   - Device: Router-2
+   - Action: Port scan detected
+   - Source IP: 192.168.1.20
+   - Scanned Ports: 22, 80, 443
+
+5. Firewall Rule Violation:
+   - Timestamp: 2023-10-25 14:15:00
+   - Device: Firewall-A
+   - Action: Firewall rule violation
+   - Rule ID: 2048
+   - Description: Blocked outgoing traffic to malicious IP
+
+6. VPN Connection Established:
+   - Timestamp: 2023-10-25 15:30:00
+   - Device: Router-3
+   - Action: VPN connection established
+   - User: remote_user
+   - Remote IP: 10.0.0.5
+
+7. Intrusion Attempt:
+   - Timestamp: 2023-10-25 16:45:00
+   - Device: Firewall-C
+   - Action: Intrusion attempt detected
+   - Attack Type: SQL Injection
+   - Affected Service: Web Server
+
+8. Configuration Change:
+   - Timestamp: 2023-10-25 18:00:00
+   - Device: Router-4
+   - Action: Configuration change
+   - User: admin
+   - Configuration Item: NAT Rules
+
+9. Firewall Log Cleared:
+   - Timestamp: 2023-10-25 19:15:00
+   - Device: Firewall-A
+   - Action: Firewall log cleared by admin
+
+10. Threat Intelligence Update:
+    - Timestamp: 2023-10-25 20:30:00
+    - Device: Firewall-B
+    - Action: Threat intelligence feed updated
+    - New Threat Indicators: 50
+
+11. Firewall Service Restart:
+    - Timestamp: 2023-10-25 21:45:00
+    - Device: Firewall-C
+    - Action: Firewall service restarted
+    - Reason: Routine maintenance
+
+12. Suspicious DNS Query:
+    - Timestamp: 2023-10-25 22:00:00
+    - Device: Router-5
+    - Action: Suspicious DNS query detected
+    - Domain: malicious-domain.com
+
+13. Firewall License Expiry:
+    - Timestamp: 2023-10-25 23:15:00
+    - Device: Firewall-A
+    - Action: Firewall license expired
+    - Services Affected: Intrusion Detection, Antivirus
+
+14. Anomaly in Network Traffic:
+    - Timestamp: 2023-10-26 00:30:00
+    - Device: Router-6
+    - Action: Anomaly detected in network traffic
+    - Affected Subnet: 192.168.2.0/24
+
+15. Router Firmware Update:
+    - Timestamp: 2023-10-26 01:45:00
+    - Device: Router-7
+    - Action: Router firmware updated to version 2.1
+
+
+16. Firewall Policy Conflict:
+    - Timestamp: 2023-10-26 03:00:00
+    - Device: Firewall-B
+    - Action: Firewall policy conflict detected
+    - Affected Rule: Rule ID 3072
+    - Description: Policy conflict between security zones
+
+17. Unauthorized SSH Access:
+    - Timestamp: 2023-10-26 04:15:00
+    - Device: Router-8
+    - Action: Unauthorized SSH access attempt
+    - User: intruder
+    - Source IP: 192.168.1.30
+
+18. Email Alert Configuration:
+    - Timestamp: 2023-10-26 05:30:00
+    - Device: Router-9
+    - Action: Email alert configuration updated
+    - Recipient: admin@company.com
+    - Triggered Events: Critical alerts
+
+19. Firewall Rule Hit:
+    - Timestamp: 2023-10-26 06:45:00
+    - Device: Firewall-C
+    - Action: Firewall rule hit
+    - Rule ID: 4096
+    - Description: Blocked incoming traffic from known malicious IP
+
+20. NAT Pool Exhaustion:
+    - Timestamp: 2023-10-26 08:00:00
+    - Device: Router-10
+    - Action: NAT pool exhaustion alert
+    - Affected Service: Port Forwarding
+
+21. SNMP Configuration Change:
+    - Timestamp: 2023-10-26 09:15:00
+    - Device: Router-11
+    - Action: SNMP configuration modified
+    - Community String: public
+    - New Access Control List
+
+22. Firewall Log Rotation:
+    - Timestamp: 2023-10-26 10:30:00
+    - Device: Firewall-A
+    - Action: Firewall log rotation completed
+    - Old Log Files Archived
+
+23. VPN Tunnel Termination:
+    - Timestamp: 2023-10-26 11:45:00
+    - Device: Router-12
+    - Action: VPN tunnel terminated
+    - User: remote_user
+    - Reason: User logoff
+
+24. Suspicious MAC Address:
+    - Timestamp: 2023-10-26 13:00:00
+    - Device: Router-13
+    - Action: Suspicious MAC address detected
+    - MAC Address: 00:1A:2B:3C:4D:5E
+    - Activity: Unauthorized device
+
+25. DHCP Lease Renewal:
+    - Timestamp: 2023-10-26 14:15:00
+    - Device: Router-14
+    - Action: DHCP lease renewal
+    - Client IP: 192.168.1.40
+    - Lease Expiry: 2023-11-01
+
+26. Gateway Failover:
+    - Timestamp: 2023-10-26 15:30:00
+    - Device: Router-15
+    - Action: Gateway failover event
+    - Backup Gateway Activated
+
+27. Firewall Health Check:
+    - Timestamp: 2023-10-26 16:45:00
+    - Device: Firewall-B
+    - Action: Firewall health check passed
+    - Services Verified: Stateful inspection, VPN
+
+28. Syslog Server Configuration:
+    - Timestamp: 2023-10-26 18:00:00
+    - Device: Router-16
+    - Action: Syslog server configuration updated
+    - Server Address: syslog-server.company.com
+    - Log Levels: Info, Warning, Error
+
+29. IPv6 Routing Update:
+    - Timestamp: 2023-10-26 19:15:00
+    - Device: Router-17
+    - Action: IPv6 routing table updated
+    - Route Prefix: 2001:db8:0:1234::/64
+
+30. Firewall License Renewal:
+    - Timestamp: 2023-10-26 20:30:00
+    - Device: Firewall-C
+    - Action: Firewall license renewed
+    - License Expiry Extended: 1 Year
+
+
+
+
