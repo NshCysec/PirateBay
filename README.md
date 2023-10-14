@@ -1,7 +1,7 @@
 # Piratebay Security Analyzer Tool
 
 ## Overview
-The Piratebay Security Analyzer Tool is a comprehensive security analysis tool designed to analyze logs from various sources including Windows, Linux, macOS, Apache, OpenSSH, Firewalls, and Routers. It leverages IOCs (Indicators of Compromise) and the MITRE ATT&CK framework to provide insights into security threats and areas of compromise.
+The Piratebay Security Analyzer Tool is a comprehensive security analysis tool designed to analyze logs from various sources including Windows, Linux, macOS, Apache, OpenSSH, Firewalls, and Routers. It leverages IOCs (Indicators of Compromise) and the MITRE ATT&CK framework to provide insights into security threat and areas of compromise.
 
 ## Features
 - Analyze log files from diverse sources to detect security threats and suspicious activities.
